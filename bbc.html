@@ -1,0 +1,454 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Technology - BBC news</title>
+
+<meta charset="UTF-8">
+
+<link href= rel="stylesheet">
+<style type="text/css" >
+	#bbc-logo {
+		position:relative;
+		left:4px;
+		margin-top:8px;
+		margin-right:12px;
+		float:left;} 
+	#topbar {
+		width:1000px;
+		height:40px;
+		margin: 0 auto;
+		}
+		
+		body {
+			padding:0;
+			margin:0;}
+
+	
+	.topbar-section{
+		float:left;
+		border-left: 1px lightgray solid;
+		height:100%;
+		}
+		
+	#sign-in {
+		width:20x;
+		height:20px;
+		margin-left: 14px;
+		margin-top: 12px;
+		float:left;
+		}
+	
+	#signin-div {
+		width:165px;
+		}
+		
+	#signintext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:8px;}
+		
+	#newstext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+	
+	#news-div {
+		width:58px;}	
+		
+		
+	#sporttext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+		
+	#sport-div {
+		width:58px;}
+		
+	#weathertext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+		
+	#weather-div {
+		width:75px;}
+		
+	#reeltext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+	
+	#reel-div {
+		width:50px;}
+	
+	#traveltext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+		
+	#travel-div {
+		width:62px;}
+	
+	#shoptext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:11px;
+		left:12px;}
+		
+	#shop-div {
+		width:58px;}
+	
+	
+	#moretext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		color:black;
+		position:relative;
+		top:13px;
+		left:12px;
+		float:left;}
+		
+	#more-div {
+		width:140px;}
+		
+	#more-arrow {
+		float:right;
+		margin-left:20px;
+		margin-top:20px;
+		margin-right:12px;}
+
+	#searchtext {
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:13px;
+		font-weight:700;
+		background-color:gainsboro;
+		color:darkslategray;
+		position:relative;
+		top:8px;
+		left:5px;
+		float:left;
+		border:none;
+		width:167px;
+		height:22px;
+		margin-top:0px;
+		padding-left:6px;
+		margin-left:5px;
+		padding-bottom:1px;}
+		
+	#searchtext:active{
+		border-color:lightskyblue;
+		color:darkgray;}
+		
+		
+		
+	#searchtext:focus{
+		border-color:lightskyblue;
+		color:darkgray;}
+		
+	#search-div {
+
+		width:180x;}
+		
+	#search-button-div {
+		width:120x;
+		border:none;}
+		
+	#search-button{
+		background-image:url(searchicon.svg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size: 27px 17px;
+		width:32px;
+		height:24px;
+		position:relative;
+		top:8px;
+		border:none;}
+		
+	#red-bbc-news {
+		background-color:#bb1919;
+		width:auto;
+		height:56px;
+		z-index:1;
+		border-top: 1px #cbc7c7 solid;}
+		
+	#red-navbar {
+		background-color:#a91717;
+		width:auto;
+		height:36px;
+		
+	}
+		
+	#red-bbc-news-text {
+		position:relative;
+		left: 142px;
+		top: 6px;
+		font-family: Arial;
+		font-size: 40px;
+		display:none;
+		color:white;}
+		
+	#red-bbc-news-text-image {
+		position:relative;
+		left: 144px;
+		top: 12px;
+		font-family: Arial;
+		font-size: 40px;
+		color:white;}
+		
+	#red-navbar-inner {
+		background-color:#a91717;
+		width:1000px;
+		height:36px;
+		margin:auto;}
+		
+	.red-section {
+		color:white;
+		font-family:arial;
+		font-size:14px;}
+	
+	.left {
+		border-left: #b83f3f 1px solid;}
+	
+	#red-home-text {
+		
+		width:5px;
+		left: 3px;
+		top: 3px;
+		}
+		
+	#section-home {
+		width:40px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		}
+		
+	#section-video {
+		width:40px;
+		margin-left:10px;
+		margin-top:11px;
+		float:left;
+		padding-left:12px;
+		padding-right:4px;
+		}	
+		
+	#section-world {
+		width:40px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding-left:12px;
+		padding-right:9px;
+		}
+		
+	#section-uk {
+		width:20px;
+		margin-top:11px;
+		margin-left:0px;
+		float:left;
+		padding-left:12px;
+		padding-right:9px;
+		}
+		
+	#section-business {
+		width:55px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding:0px 10px;	
+		}
+		
+	#section-tech {
+		width:30px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding:0px 10px;	
+		}
+		
+	#section-science {
+		width:35px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding-left:12px;
+		padding-right:20px;
+		}	
+
+	#section-stories {
+		width:40px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding-left:14px;
+		padding-right:9px;
+		}
+
+	#section-entertainment {
+		width:130px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding:0px 10px;	
+		}
+
+	#section-health {
+		width:40px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding:0px 10px;	
+		}
+
+	#section-worldnews {
+		width:100px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding-left:14px;
+		padding-right:7px;
+		}
+
+	#section-more {
+		width:55px;
+		margin-left:3.5px;
+		margin-top:11px;
+		float:left;
+		padding:0px 10px;	
+		}
+	#w-arrow-1 {
+		float:right;
+		padding-left:1px;
+		height:20px;
+		}
+	.red-link {
+		color:white;
+		font-family:arial;
+		font-size:14px;
+		text-decoration:none;}
+	a {
+		text-decoration:none;}
+	a:hover {
+		border-bottom: white 4px solid;
+	}
+	
+	#section-more:hover {
+		background-color:black;
+		}
+	#red-more-text:hover {
+		background-color:black;}
+</style>
+</head>
+
+
+
+<body>
+	<!-- ülemise navbari osad  -->
+	<div id="topbar" 
+		<a  href="http://www.bbc.com/">
+			<img id="bbc-logo" src="bbc-orbit-blocks_grey.svg">
+		</a>
+		<div id="signin-div" class="topbar-section">
+			
+				<img id="sign-in" src="sign-in.PNG">
+				<span id="signintext">Sign in</span>
+		</div>
+		
+		<div id="news-div" class="topbar-section">
+			<span id="newstext">News</span>
+		</div>
+		
+		<div id="sport-div" class="topbar-section">
+			<span id="sporttext">Sport</span>
+		</div>
+		
+		<div id="weather-div" class="topbar-section">
+			<span id="weathertext">Weather</span>
+		</div>
+		
+		<div id="shop-div" class="topbar-section">
+			<span id="shoptext">Shop</span>
+		</div>
+		
+		<div id="reel-div" class="topbar-section">
+			<span id="reeltext">Reel</span>
+		</div>
+		
+		<div id="travel-div" class="topbar-section">
+			<span id="traveltext">Travel</span>
+		</div>
+		
+		<div id="more-div" class="topbar-section">
+			<span id="moretext">More</span>
+			<img id="more-arrow" src="orb-sprite.gif">
+		</div>		
+		
+		<div id="search-div" class="topbar-section">
+			<input id="searchtext" type="text" name="search" value="Search">	
+		</div>		
+		
+		<div id="search-button-div" class="topbar-section">
+			<button id="search-button"></button>
+		</div>		
+		
+	</div> 
+    <!-- ülemise navbari lõpp  -->
+
+	<!-- BBC punane NEWS riba  -->
+	<div id="red-bbc-news"> 
+	<span id="red-bbc-news-text">NEWS</span>
+	<img id="red-bbc-news-text-image" src="news-light.png">
+	</div>
+	
+	<div id="red-navbar"> 
+		<div id="red-navbar-inner">
+		<div id="section-home" class="red-section left"><span id="red-home-text"><a class="red-link" href="/home.html">Home</a></span></div>
+		<div id="section-video" class="red-section left"><span id="red-video-text"><a class="red-link" href="/video.html">Video</a></span></div>
+		<div id="section-world" class="red-section left"><span id="red-world-text"><a class="red-link" href="/world.html">World</a></span></div>
+		<div id="section-uk" class="red-section left"><span id="red-uk-text"><a class="red-link" href="/uk.html">UK</a></span></div>
+		<div id="section-business" class="red-section left"><span id="red-business-text"><a class="red-link" href="/business.html">Business</a></span></div>
+		<div id="section-tech" class="red-section left"><span id="red-tech-text"><a class="red-link" href="/tech.html">Tech</a></span></div>
+		<div id="section-science" class="red-section left"><span id="red-science-text"><a class="red-link" href="/science.html">Science</a></span></div>
+		<div id="section-stories" class="red-section left"><span id="red-stories-text"><a class="red-link" href="/stories.html">Stories</a></span></div>
+		<div id="section-entertainment" class="red-section left"><span id="red-entertainment-text"><a class="red-link" href="/entertainment.html">Entertainment & Arts</a></span></div>
+		<div id="section-health" class="red-section left"><span id="red-health-text"><a class="red-link" href="/health.html">Health</a></span></div>
+		<div id="section-worldnews" class="red-section left"><span id="red-worldnews-text"><a class="red-link" href="/worldnews.html">World News TV</a></span></div></a>
+		<div id="section-more" class="red-section left"><span id="red-more-text"><a class="red-link" id="more-link" href="/more.html">More</a></span><img id="w-arrow-1" src="white-arrow.png"></div>
+
+		</div>
+	</div>
+
+</body>
+
+
+
+
+</html>
